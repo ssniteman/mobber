@@ -11,6 +11,7 @@ body {
 .container {
         margin: 0 auto;
         width: 960px;
+        position: relative;
 }
 
 /*
@@ -20,19 +21,19 @@ Header
 .header {
         margin: 0 auto;
         background: url("Sliceheader.png") repeat-x top left;
-        height: 80px;          
+        height: 60px;          
 }
 
 .header img {
-	height: 34px;
-	margin: 2px auto;
+	height: 33px;
+	margin: 14px auto;
 }
 
 .links {    
     color: white;
     list-style-type: none;
     display: inline-block;
-    margin-top: 7px;
+    margin-top: 18px;
 }
 
 .links li {
@@ -40,15 +41,30 @@ Header
 	margin-left: 20px;
 }
 
-.brucepic{
+.rightthing {
+	display: inline-block;
+	padding-top: 20px;
+	position: absolute;
+	right: 0;
+	margin-top: -9px;
+}
+
+img.brucepic {
 	border-radius: 50px;
-
+	margin-top: 2px;
 }
 
-span {
+span.johndoe {
 	color: white;
+	margin-top: 10px;
+	line-height: 34px;
 }
 
+img.arrow {
+	width: 16px;
+	height: 14px;
+	margin-top: 12px;
+}
 
 
 /*
@@ -59,12 +75,14 @@ TAGLINE
 .tagline {
         margin: 0 auto;
         background-color: white;
-        height: 80px;
+        height: 90px;
 }
 
 h2 {
         font-size: 28px;
         color: rgb(50,50,50);
+        margin: 0;
+        padding-top: 22px;
 }
 
 /*JOIN MOB*/
