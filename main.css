@@ -187,7 +187,7 @@ h3 {
     text-align: left;
     font-size: 18px;
     margin-left: 19px;
-    padding-top: 16px;
+    padding-top: 22px;
     font-style: italic;
 }
 
@@ -236,7 +236,7 @@ h3 {
         color: rgb(60,60,60);
         font-size: 14px;
         text-align: center;
-        margin-top: -1px;
+        margin-top: 9px;
         text-shadow: white 0 2px;
         text-shadow: rgb(208, 205, 197) 0 1px;
 }
@@ -256,7 +256,7 @@ h3 {
         color: rgb(60,60,60);
         font-size: 14px;
         text-align: center;
-        margin-top: -1px;
+        margin-top: 9px;
         text-shadow: rgb(208, 205, 197) 0 1px;
 }
 
@@ -273,7 +273,7 @@ h3 {
 .joinbutton {
         color: white;
         margin-top: 30px;
-        border: 1px rbg(185,129,0);
+        border: 1px rgb(185,129,0);
         font-size: 22px;
         text-align: center;
         position: relative;
@@ -342,12 +342,6 @@ h3 {
     margin-left: -11px;
 }
 
-
-
-
-
-
-
 /* THIRD ROW*/
 
 .thirdrowbackground {
@@ -358,7 +352,6 @@ h3 {
 .jcrewcontainer {
     width: 302px;
     height: 268px;
-    box-shadow: inset 0 0 1px black;
     display: inline-block;
 
 }
@@ -378,7 +371,7 @@ h3 {
 .jcrewfootnote .title{
     font-size: 16px;
     font-style: bold;
-    color: black;
+    color: rgb(73,73,72);
 }
 
 .jcrewfootnote span {
@@ -401,7 +394,6 @@ h3 {
 .foodcontainer {
     width: 302px;
     height: 295px;
-    box-shadow: inset 0 0 1px black;
     display: inline-block;
     margin-left: 23px;
 }
@@ -422,7 +414,7 @@ h3 {
 .foodfootnote .title{
     font-size: 16px;
     font-style: bold;
-    color: black;
+    color: rgb(73,73,72);
     text-align: left;
 }
 
@@ -438,7 +430,7 @@ h3 {
 }
 
 .leftfootnotetime {
-    margin-left: 70px;
+    margin-left: 65px;
 }
 
 
@@ -447,7 +439,6 @@ h3 {
 .haircontainer {
     width: 302px;
     height: 295px;
-    box-shadow: inset 0 0 1px black;
     display: inline-block;
     margin-left: 23px;
 }
@@ -468,7 +459,7 @@ h3 {
 .hairfootnote .title{
     font-size: 16px;
     font-style: bold;
-    color: black;
+    color: rgb(73,73,72);
     text-align: left;
 }
 
@@ -483,6 +474,186 @@ h3 {
     font-size: 12px;
 }
 
+/* LINE */
+
+.line {
+    width: 960px;
+    border-bottom: 1px solid rgb(170, 165, 165);
+    margin-top: 35px;
+}
+
+/* TABLE */
+
+.tablecontainer {
+    width: 635;
+    display: inline-block;
+}
+
+h5 {
+    font-size: 24px;
+    font-style: bold;
+    color: rgb(73,73,72);
+    margin-top: 15px;
+}
+
+table {
+    border-spacing: 0px 15px;
+    border-collapse: separate;
+    margin-top: -30px;
+}
+
+.firstrow td {
+    border-bottom: 1px solid rgb(170, 165, 165);
+    border-spacing: 0;
+     padding-bottom: 15px;
+    line-height: 0px;
+}
+
+tr {
+    border-spacing: 0px;
+}
+
+.secondrow td {
+    border-bottom: 1px solid rgb(170, 165, 165);
+    padding-bottom: 15px;
+    line-height: 0px;  
+}
+
+.thirdrow td {
+    border-bottom: 1px solid rgb(170, 165, 165);
+    padding-bottom: 15px;
+    line-height: 0px;
+}
+.fourthrow td {
+    padding-bottom: 15px;
+    line-height: 0px;
+}
+
+.firstcolumn {
+    color: rgb(43, 41, 41);
+    font-style: bold;
+    padding-bottom: 15px;
+    line-height: 0px;
+}
+
+.secondcolumn {
+    padding-left: 80px;
+    color: rgb(44,46,46);
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.thirdcolumn {
+    color: rgb(101, 101, 101);
+    font-size: 12px;
+    padding-left: 80px;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+/* START A MOB BOX */
+
+.startamob-box {
+    width: 301px;
+    height: 192px;
+    background-color: rgb(197,194,186);
+    display: inline-block;
+    margin-left: 43px;
+    margin-top: 25px;
+}
+
+.start-mob {
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 42px;
+    text-shadow: rgb(134, 131, 126) 0 2px;
+}
+
+.startamob-button {
+    background-color: rgb(215,213, 208);
+    width: 278px;
+    height: 62px;
+    border: 1px rgb(185,129,0);
+    border-radius: 4px;
+    margin-left: 11px;
+   
+}
+
+.startamob {
+    color: rgb(22,107,166);
+    padding-top: 14px;
+    margin-left: -20px;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: white 0 2px;
+    margin-top: 40px;
+}
+
+.one-button {
+    font-size: 12px;
+    border: 3px black;
+    border-radius: 50px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: rgb(101,101,101);
+    background-color: rgb(228,228,228);
+    text-align: center;
+    line-height: 32px;
+    margin-top: 28px;
+    margin-left: -51px;
+}
+
+.two-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(228,228,228);
+    color: rgb(101,101,101);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 28px;
+    margin-left: 52px;
+}
+
+.three-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: rgb(101,101,101);
+    background-color: rgb(228,228,228);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 28px;
+    margin-left: 52px;
+}
+
+.uno-dos-tres {
+    width: 264px;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    margin-left: 75px;
+    posot
+}
+
+.line-behind-numbers {
+    width: 210px;
+    height: 10px;
+    background-color: rgb(175,173,165);
+    margin-top: -105px;
+    margin-left: 35px;
+}
+
 
 
 
@@ -491,5 +662,71 @@ h3 {
 .footer {
         background-color: rgb(66,65,64);
         height: 340px;
+         
 }
 
+.footer-leftcolumn {
+    width: 303px;
+    height: 277px;
+    display: inline-block;
+}
+
+.mobcategories {
+    text-shadow: rgb(134, 131, 126) 0 2px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-middlecolumn {
+    width: 303px;
+    height: 277px;
+    display: inline-block;
+}
+
+
+
+.footer-rightcolumn {
+    width: 303px;
+    height: 277px;
+    display: inline-block;
+}
+
+.howitworks {
+        color: white;
+        margin-top: 30px;
+        border: 1px rgb(185,129,0);
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 1px white;
+        border: 1px solid rgb(218, 150, 21);
+
+        background: #fed800; /* Old browsers */
+        background: -moz-linear-gradient(top,  #fed800 0%, #e49600 100%, #e49600 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fed800), color-stop(100%,#e49600), color-stop(100%,#e49600)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #fed800 0%,#e49600 100%,#e49600 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #fed800 0%,#e49600 100%,#e49600 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #fed800 0%,#e49600 100%,#e49600 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #fed800 0%,#e49600 100%,#e49600 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fed800', endColorstr='#e49600',GradientType=0 ); /* IE6-9 */
